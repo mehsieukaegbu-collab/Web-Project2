@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mercy Edge</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="top-bar">
+
+        <!-- Menu -->
+        <button class="menu-button" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+
+        <!-- Weather -->
+        <div class="top-weather">
+            <span>Lagos</span>
+            <i class="fa-solid fa-cloud-sun"></i>
+            <span>28°C</span>
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="search-section">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    placeholder="Search the web, AI, news and more">
+
+                <i class="fa-solid fa-microphone microphone"></i>
+
+            </div>
+
+        </section>
+
+        <section class="quick-access">
+
+            <div class="quick-container">
+
+
+                <!-- Google -->
+                <a href="https://www.google.com/"
+                    class="quick-item"
+                    target="_blank">
+
+                    <div class="quick-icon google">
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+
+                    <span>Google</span>
+
+                </a>
+
+
+                <!-- ChatGPT -->
+                <a href="https://chatgpt.com/"
+                    class="quick-item"
+                    target="_blank">
+
+                    <div class="quick-icon chatgpt">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+
+                    <span>ChatGPT</span>
+
+                </a>
+
+
+                <!-- GitHub -->
+                <a href="https://github.com/"
+                    class="quick-item"
+                    target="_blank">
+
+                    <div class="quick-icon github">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+
+                    <span>GitHub</span>
+
+                </a>
+
+
+                <!-- YouTube -->
+                <a href="https://www.youtube.com/"
+                    class="quick-item"
+                    target="_blank">
+
+                    <div class="quick-icon youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+
+                    <span>YouTube</span>
+
+                </a>
+
+
+                <!-- Gmail -->
+                <a href="https://mail.google.com/"
+                    class="quick-item"
+                    target="_blank">
+
+                    <div class="quick-icon gmail">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <span>Gmail</span>
+
+                </a>
+
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/"
+                    class="quick-item"
+                    target="_blank">
+
+                    <div class="quick-icon linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <span>LinkedIn</span>
+
+                </a>
+
+
+                <!-- Spotify -->
+                <a href="https://www.spotify.com/"
+                    class="quick-item"
+                    target="_blank">
+
+                    <div class="quick-icon spotify">
+                        <i class="fa-brands fa-spotify"></i>
+                    </div>
+
+                    <span>Spotify</span>
+
+                </a>
+
+
+                <!-- Add shortcut -->
+                <div class="quick-item">
+
+                    <div class="quick-icon add">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <span>Add shortcut</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="news-section">
+
+
+            <!-- NEWS MENU -->
+
+            <div class="news-navigation">
+
+                <div class="msn-logo">
+                    msn
+                </div>
+
+                <a href="#" class="active">Discover</a>
+
+                <a href="#">Sports</a>
+
+                <a href="#">Play</a>
+
+                <a href="#">Money</a>
+
+                <a href="#">Weather</a>
+
+                <a href="#">Watch</a>
+
+            </div>
+
+            <div class="news-grid">
+
+
+                <!-- FEATURED NEWS -->
+
+                <article class="featured-news">
+
+                    <div class="featured-image">
+
+                        <img
+                            src="iMages/ai.jpg"
+                            alt="Artificial Intelligence">
+
+                        <div class="play-button">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+
+                        <div class="featured-text">
+
+                            <span class="category">
+                                Technology
+                            </span>
+
+                            <h1>
+                                Artificial Intelligence is transforming
+                                software engineering
+                            </h1>
+
+                            <p>
+                                Discover the latest innovations in AI,
+                                robotics and software technology.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SPORTS -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img
+                            src="iMages/sports.jpg"
+                            alt="Sports News">
+
+                        <div class="small-play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="news-content">
+
+                        <span class="category">
+                            Sports
+                        </span>
+
+                        <h2>
+                            Sports News
+                        </h2>
+
+                        <p>
+                            Stay updated with your favorite club
+                            in the Premier League this season.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- ENTERTAINMENT -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img
+                            src="iMages/entertainment.jpg"
+                            alt="Entertainment News">
+
+                    </div>
+
+                    <div class="news-content">
+
+                        <span class="category">
+                            Entertainment
+                        </span>
+
+                        <h2>
+                            Entertainment News
+                        </h2>
+
+                        <p>
+                            Spider-Man: Brand New Day is now out
+                            in cinemas.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BUSINESS -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img
+                            src="iMages/business.jpg"
+                            alt="Business News">
+
+                    </div>
+
+                    <div class="news-content">
+
+                        <span class="category">
+                            Business
+                        </span>
+
+                        <h2>
+                            Trading Day: Momentum fizzles,
+                            gold sizzles
+                        </h2>
+
+                        <p>
+                            Solid corporate earnings and optimism
+                            pushed world stocks higher.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- TRAVEL -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img
+                            src="iMages/travel.jpg"
+                            alt="Travel News">
+
+                    </div>
+
+                    <div class="news-content">
+
+                        <span class="category">
+                            Travel
+                        </span>
+
+                        <h2>
+                            Explore amazing destinations
+                        </h2>
+
+                        <p>
+                            Discover beautiful destinations and
+                            create unforgettable memories.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EXTRA NEWS 1 -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img
+                            src="iMages/ai.jpg"
+                            alt="Technology">
+
+                    </div>
+
+                    <div class="news-content">
+
+                        <span class="category">
+                            Technology
+                        </span>
+
+                        <h2>
+                            The future of robotics
+                        </h2>
+
+                        <p>
+                            New technology is changing the way
+                            people interact with machines.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EXTRA NEWS 2 -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img
+                            src="iMages/sports.jpg"
+                            alt="Football">
+
+                    </div>
+
+                    <div class="news-content">
+
+                        <span class="category">
+                            Football
+                        </span>
+
+                        <h2>
+                            Latest football updates
+                        </h2>
+
+                        <p>
+                            Catch up with the latest football
+                            stories and results.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EXTRA NEWS 3 -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+
+                        <img
+                            src="iMages/travel.jpg"
+                            alt="Travel">
+
+                    </div>
+
+                    <div class="news-content">
+
+                        <span class="category">
+                            Travel
+                        </span>
+
+                        <h2>
+                            Beautiful places to visit
+                        </h2>
+
+                        <p>
+                            Explore exciting destinations around
+                            the world.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+            <div class="video-heading">
+
+                <h2>
+                    Watch
+                </h2>
+
+                <p>
+                    Watch the latest stories and videos
+                </p>
+
+            </div>
+
+
+            <div class="video-grid">
+
+
+                <!-- VIDEO 1 -->
+
+                <article class="video-card">
+
+                    <div class="video-container">
+
+                        <video
+                            autoplay
+                            muted
+                            loop
+                            playsinline>
+
+                            <source
+                                src="iMages/news-video1.mp4"
+                                type="video/mp4">
+
+                            Your browser does not support video.
+
+                        </video>
+
+                        <div class="video-play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="video-content">
+
+                        <span class="category">
+                            Technology
+                        </span>
+
+                        <h3>
+                            Latest technology stories
+                        </h3>
+
+                    </div>
+
+                </article>
+
+
+                <!-- VIDEO 2 -->
+
+                <article class="video-card">
+
+                    <div class="video-container">
+
+                        <video
+                            autoplay
+                            muted
+                            loop
+                            playsinline>
+
+                            <source
+                                src="iMages/news-video2.mp4"
+                                type="video/mp4">
+
+                            Your browser does not support video.
+
+                        </video>
+
+                        <div class="video-play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="video-content">
+
+                        <span class="category">
+                            Sports
+                        </span>
+
+                        <h3>
+                            Latest sports stories
+                        </h3>
+
+                    </div>
+
+                </article>
+
+
+                <!-- VIDEO 3 -->
+
+                <article class="video-card">
+
+                    <div class="video-container">
+
+                        <video
+                            autoplay
+                            muted
+                            loop
+                            playsinline>
+
+                            <source
+                                src="iMages/news-video3.mp4"
+                                type="video/mp4">
+
+                            Your browser does not support video.
+
+                        </video>
+
+                        <div class="video-play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="video-content">
+
+                        <span class="category">
+                            Entertainment
+                        </span>
+
+                        <h3>
+                            Entertainment highlights
+                        </h3>
+
+                    </div>
+
+                </article>
+
+
+                <!-- VIDEO 4 -->
+
+                <article class="video-card">
+
+                    <div class="video-container">
+
+                        <video
+                            autoplay
+                            muted
+                            loop
+                            playsinline>
+
+                            <source
+                                src="iMages/news-video4.mp4"
+                                type="video/mp4">
+
+                            Your browser does not support video.
+
+                        </video>
+
+                        <div class="video-play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+
+                    </div>
+
+                    <div class="video-content">
+
+                        <span class="category">
+                            Travel
+                        </span>
+
+                        <h3>
+                            Travel around the world
+                        </h3>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Mercy Edge
+        </p>
+
+    </footer>
+
+</body>
+
+</htm
